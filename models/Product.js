@@ -11,6 +11,21 @@ Product.init(
   {
     // define columns:
     // id, product_name, price, stock, category_id
+    id: {
+      type:
+    },
+    product_name: {
+      type:
+    },
+    price: {
+      type:
+    },
+    stock: {
+      type:
+    },
+    category_id: {
+      type:
+    }
   },
   {
     sequelize,
