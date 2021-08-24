@@ -2,6 +2,7 @@ const express = require('express');
 const routes = require('./routes');
 // import Sequence from 'mysql2/typings/mysql/lib/protocol/sequences/Sequence';
 // import sequelize connection
+const sequelize = require('./config/connection')
 
 const app = express();
 const PORT = process.env.PORT || 3001;
